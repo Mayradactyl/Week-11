@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: fantasy;
+    font-style: bold;
+    text-align: center;
+    background-image: url("https://th.bing.com/th/id/R.957babeb63249a2217632b0544bfa4ea?rik=kpz1VtLQieBnnA&riu=http%3a%2f%2fs3.amazonaws.com%2fspoonflower%2fpublic%2fdesign_thumbnails%2f0618%2f5775%2frxo_-green__67_shop_preview.png&ehk=9L%2fy2X9WHOe639yKeF1DoMscgqRGDaSKit%2fV%2b1v7YvI%3d&risl=&pid=ImgRaw&r=0") ;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-size: contain;
+}
+
+
+
+hr {
+    width: 500px;
+    height: 3px;
+    background-color: black;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.tile {
+    width:147px;
+    height: 147;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.horizontal-line {
+    border-bottom: 3px solid black;
+}
+
+.vertical-line {
+    border-right: 3px solid black;
+
+}
+
+.winner {
+    background-color: beige;
+    color: gold;
+}
+
+/* /* #reset {
+    background-color: rgb(10, 117, 82);
+    color: black;
+    font-style: bold
+    padding-inline: ;
+    border-radius: 8px;
+    border-style: double;
+    font-size: 50px;
+    margin-left: 1em;
+    cursor: pointer;
+    
+} */
